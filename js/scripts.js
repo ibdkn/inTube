@@ -2,30 +2,30 @@
 data = [
     {
         id: 1,
-        category: 'Education Videos',
+        category: 'Music videos',
         videos: [
             {
                 videoId: 1,
-                title: 'JavaScript - Way of the Samurai, Browser, first program, foreign language learning simulator',
-                fileUrl: 'https://www.youtube.com/embed/bmHZ-YQBWNA?si=WD2hFStYPG_b0MZH',
-                videoChannel: 'It-Kamasutra',
-                publicationDate: '1 week ago',
+                title: 'Музыка для расслабления во время кофе - Расслабляющий микс',
+                fileUrl: 'https://www.youtube.com/embed/_Yha7XCvjVQ?si=Kj7V7mdIrP3oBSXT',
+                videoChannel: 'Chill Music Lab',
+                publicationDate: '',
                 live: true,
             },
             {
                 videoId: 2,
-                title: 'JavaScript - Way of the Samurai, Browser, first program, foreign language learning simulator',
-                fileUrl: 'https://www.youtube.com/embed/bmHZ-YQBWNA?si=WD2hFStYPG_b0MZH',
-                videoChannel: 'It-Kamasutra',
-                publicationDate: '1 week ago',
-                live: false,
+                title: 'Top 40 Songs of 2022 2023💥Maroon 5, The Weeknd, Charlie Puth, Maroon 5, Dua Lipa💥Mega Hit Mix',
+                fileUrl: 'https://www.youtube.com/embed/ku5VKha1VB8?si=UBaV8LtlHQUf_082',
+                videoChannel: 'Mega Hit Mix',
+                publicationDate: '',
+                live: true,
             },
             {
                 videoId: 2,
-                title: 'JavaScript - Way of the Samurai, Browser, first program, foreign language learning simulator',
-                fileUrl: 'https://www.youtube.com/embed/bmHZ-YQBWNA?si=WD2hFStYPG_b0MZH',
-                videoChannel: 'It-Kamasutra',
-                publicationDate: '1 week ago',
+                title: 'Metallica: Nothing Else Matters (Official Music Video)',
+                fileUrl: 'https://www.youtube.com/embed/tAGnKpE4NCI?si=4ncX_w_HMykm2V35',
+                videoChannel: 'Metallica',
+                publicationDate: '14 years ago',
                 live: false,
             }
         ]
@@ -36,26 +36,26 @@ data = [
         videos: [
             {
                 videoId: 1,
-                title: 'JavaScript - Way of the Samurai, Browser, first program, foreign language learning simulator',
+                title: 'JavaScript[5] - Путь самурая. Переменные, память, данные. НОВЫЙ БЕСПЛАТНЫЙ КУРС IT-KAMASUTRA',
                 fileUrl: 'https://www.youtube.com/embed/bmHZ-YQBWNA?si=WD2hFStYPG_b0MZH',
                 videoChannel: 'It-Kamasutra',
-                publicationDate: '1 week ago',
+                publicationDate: '',
                 live: true,
             },
             {
                 videoId: 2,
-                title: 'JavaScript - Way of the Samurai, Browser, first program, foreign language learning simulator',
-                fileUrl: 'https://www.youtube.com/embed/bmHZ-YQBWNA?si=WD2hFStYPG_b0MZH',
+                title: 'JavaScript[6] - Путь самурая. Сложная программа, if else, проценты, счётчик. JAVASCRIPT для новичков',
+                fileUrl: 'https://www.youtube.com/embed/gA-jU9yoJ0Y?si=RKXDDavB0ZuJu4YJ',
                 videoChannel: 'It-Kamasutra',
-                publicationDate: '1 week ago',
+                publicationDate: '2 week ago',
                 live: false,
             },
             {
-                videoId: 2,
-                title: 'JavaScript - Way of the Samurai, Browser, first program, foreign language learning simulator',
-                fileUrl: 'https://www.youtube.com/embed/bmHZ-YQBWNA?si=WD2hFStYPG_b0MZH',
+                videoId: 3,
+                title: 'Адаптивная верстка сайта с нуля с пояснениями. Макет Photography. Часть 1. Верстка',
+                fileUrl: 'https://www.youtube.com/embed/vfE4qY5cRZg?si=PEGczUwLc7obuxeu',
                 videoChannel: 'It-Kamasutra',
-                publicationDate: '1 week ago',
+                publicationDate: '1 month ago',
                 live: false,
             }
         ]
