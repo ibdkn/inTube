@@ -95,12 +95,14 @@ function renderVideo(videos, element) {
 
     if(videos.length > 0) {
         videos.forEach(video => {
+            const { videoId, title, fileUrl, videoChannel, publicationDate, live } = video;
+
             let videoWrapperElement = document.createElement('li');
             videoWrapperElement.classList.add('video');
 
             let videoElement = document.createElement('iframe');
             videoElement.classList.add('video__frame');
-            videoElement.setAttribute('src', video.fileUrl);
+            videoElement.setAttribute('src', fileUrl);
             videoElement.setAttribute('title', 'YouTube video player');
             videoElement.setAttribute('frameborder', '0');
             videoElement.setAttribute('allow', 'accelerometer');
@@ -114,18 +116,18 @@ function renderVideo(videos, element) {
 
             let videoTitleElement = document.createElement('h2');
             videoTitleElement.classList.add('video__title');
-            videoTitleElement.innerText = video.title;
+            videoTitleElement.innerText = title;
 
             let videoChannelElement = document.createElement('p');
             videoChannelElement.classList.add('video__channel');
-            videoChannelElement.innerText = video.videoChannel;
+            videoChannelElement.innerText = videoChannel;
 
 
             let videoDateElement = document.createElement('p');
             videoDateElement.classList.add('video__date');
-            videoDateElement.innerText = video.publicationDate;
+            videoDateElement.innerText = publicationDate;
 
-            if(video.live) {
+            if(live) {
                 let videoLiveElement = document.createElement('span');
                 videoLiveElement.classList.add('live');
                 videoLiveElement.innerText = 'Live Stream';
